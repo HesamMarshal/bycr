@@ -50,7 +50,6 @@ a{
     text-decoration: none;
     cursor: pointer;
     color: var(--color-secondary);
-
 }
 
 .container {
@@ -78,9 +77,7 @@ a{
         li{
             margin: 0 20px;
         }
-
     }
-
 }
 
 #info{
@@ -131,7 +128,31 @@ a{
             .info{
                 padding: 1.5rem;
                 display: flex;
-                flex-direction: column;              
+                flex-direction: column; 
+                .social{
+                    display: flex;
+                
+                    .instagram  {
+                        width: 40px;
+                        height: 40px;
+                        img{
+                            width: 1.5rem;
+                        }
+                    }   
+                    .telegram{
+                        width: 40px;
+                        height: 40px;
+                        i{
+                            width: 30px;
+                            height: 1rem;
+                        }
+                    }    
+                    .website{
+                        width: 40px;
+                        height: 40px;
+
+                    }   
+                }
                 h3{
                     
                     color: var(--color-secondary);
@@ -144,4 +165,7 @@ a{
 footer{
     display: flex;
 
+}
+.filter-blue {
+    filter: invert(30%) sepia(76%) saturate(1322%) hue-rotate(185deg) brightness(89%) contrast(88%);
 }

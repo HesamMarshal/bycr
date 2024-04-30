@@ -125,6 +125,28 @@ a {
   display: flex;
   flex-direction: column;
 }
+#stores .store-cards .store .info .social {
+  display: flex;
+}
+#stores .store-cards .store .info .social .instagram {
+  width: 40px;
+  height: 40px;
+}
+#stores .store-cards .store .info .social .instagram img {
+  width: 1.5rem;
+}
+#stores .store-cards .store .info .social .telegram {
+  width: 40px;
+  height: 40px;
+}
+#stores .store-cards .store .info .social .telegram i {
+  width: 30px;
+  height: 1rem;
+}
+#stores .store-cards .store .info .social .website {
+  width: 40px;
+  height: 40px;
+}
 #stores .store-cards .store .info h3 {
   color: var(--color-secondary);
   font-size: 20;
@@ -132,4 +154,8 @@ a {
 
 footer {
   display: flex;
+}
+
+.filter-blue {
+  filter: invert(30%) sepia(76%) saturate(1322%) hue-rotate(185deg) brightness(89%) contrast(88%);
 }/*# sourceMappingURL=styles.css.map */
