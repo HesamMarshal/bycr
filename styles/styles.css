@@ -44,6 +44,12 @@ body {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--color-secondary);
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
@@ -58,6 +64,9 @@ body {
 }
 #header h1 {
   color: var(--color-secondary);
+}
+#header h3 {
+  color: inherit;
 }
 #header .menu {
   width: 100%;
@@ -116,8 +125,9 @@ body {
   display: flex;
   flex-direction: column;
 }
-#stores .store-cards .store .info h4 {
+#stores .store-cards .store .info h3 {
   color: var(--color-secondary);
+  font-size: 20;
 }
 
 footer {
