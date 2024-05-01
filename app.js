@@ -6,7 +6,7 @@ const stores = [
     imgSrc: "store.png",
     alt: "آتلیه باربد جهرم",
     address: "جهرم بلوار جانبازان",
-    tel: "091",
+    tel: "09171913303",
     instagram: "https://www.instagram.com/barbodjahrom",
     telegram: "",
     website: "",
