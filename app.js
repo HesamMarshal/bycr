@@ -2,9 +2,21 @@ const storeCards = document.querySelector(".store-cards");
 
 const stores = [
   {
+    storeName: "وب سایت چپترا",
+    imgSrc: "store.png",
+    alt: "وبسایت آموزشی چپترا",
+    category: "",
+    address: "آنلاین",
+    tel: "09173918727",
+    instagram: "https://www.instagram.com/HesamMarshal",
+    telegram: "https://telegram.me/HesamMarshal",
+    website: "https://chaptera.ir",
+  },
+  {
     storeName: "آتلیه باربد",
     imgSrc: "store.png",
     alt: "آتلیه باربد جهرم",
+    category: "آتلیه عکاسی",
     address: "جهرم بلوار جانبازان",
     tel: "09171913303",
     instagram: "https://www.instagram.com/barbodjahrom",
