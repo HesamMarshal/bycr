@@ -35,19 +35,68 @@ const valueChange = () => {
       if (investAmountDollar >= 50 && investAmountDollar <= 499) {
         const interestMonthDollar = (investAmountDollar * 2) / 100;
         const interestDayDollar = (investAmountDollar * 0.07) / 100;
-
+        // month
         interestMonthTomanTag.innerHTML = Math.round(
           interestMonthDollar * dollarPrice
         );
         interestMonthDollarTag.innerHTML = interestMonthDollar.toFixed(2);
-        interestDayTomanTag.innerHTML = interestDayDollar * dollarPrice;
-
-        interestDayDollarTag.innerHTML = interestDayDollar;
+        // Day
+        interestDayTomanTag.innerHTML = Math.round(
+          interestDayDollar * dollarPrice
+        );
+        interestDayDollarTag.innerHTML = interestDayDollar.toFixed(2);
       } else if (investAmountDollar >= 500 && investAmountDollar <= 4999) {
         const interestMonthDollar = (investAmountDollar * 4) / 100;
-
-        interestMonthTomanTag.innerHTML = interestMonthDollar * dollarPrice;
-        interestMonthDollarTag.innerHTML = interestMonthDollar;
+        const interestDayDollar = (investAmountDollar * 0.13) / 100;
+        // month
+        interestMonthTomanTag.innerHTML = Math.round(
+          interestMonthDollar * dollarPrice
+        );
+        interestMonthDollarTag.innerHTML = interestMonthDollar.toFixed(2);
+        // Day
+        interestDayTomanTag.innerHTML = Math.round(
+          interestDayDollar * dollarPrice
+        );
+        interestDayDollarTag.innerHTML = interestDayDollar.toFixed(2);
+      } else if (investAmountDollar >= 5000 && investAmountDollar <= 9999) {
+        const interestMonthDollar = (investAmountDollar * 5) / 100;
+        const interestDayDollar = (investAmountDollar * 0.17) / 100;
+        // month
+        interestMonthTomanTag.innerHTML = Math.round(
+          interestMonthDollar * dollarPrice
+        );
+        interestMonthDollarTag.innerHTML = interestMonthDollar.toFixed(2);
+        // Day
+        interestDayTomanTag.innerHTML = Math.round(
+          interestDayDollar * dollarPrice
+        );
+        interestDayDollarTag.innerHTML = interestDayDollar.toFixed(2);
+      } else if (investAmountDollar >= 10000 && investAmountDollar <= 49000) {
+        const interestMonthDollar = (investAmountDollar * 7) / 100;
+        const interestDayDollar = (investAmountDollar * 0.23) / 100;
+        // month
+        interestMonthTomanTag.innerHTML = Math.round(
+          interestMonthDollar * dollarPrice
+        );
+        interestMonthDollarTag.innerHTML = interestMonthDollar.toFixed(2);
+        // Day
+        interestDayTomanTag.innerHTML = Math.round(
+          interestDayDollar * dollarPrice
+        );
+        interestDayDollarTag.innerHTML = interestDayDollar.toFixed(2);
+      } else if (investAmountDollar >= 50000 && investAmountDollar <= 1000000) {
+        const interestMonthDollar = (investAmountDollar * 8) / 100;
+        const interestDayDollar = (investAmountDollar * 0.26) / 100;
+        // month
+        interestMonthTomanTag.innerHTML = Math.round(
+          interestMonthDollar * dollarPrice
+        );
+        interestMonthDollarTag.innerHTML = interestMonthDollar.toFixed(2);
+        // Day
+        interestDayTomanTag.innerHTML = Math.round(
+          interestDayDollar * dollarPrice
+        );
+        interestDayDollarTag.innerHTML = interestDayDollar.toFixed(2);
       }
     }
   }
