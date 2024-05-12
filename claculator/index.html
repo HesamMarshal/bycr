@@ -28,13 +28,53 @@
 
 <body dir="rtl">
     <header></header>
-    <section>
+    <section id="calculator">
+        <form action="">
+            <div class="item">
+                <label for="invest_amount">میزان سرمایه گذاری(تومان)</label>
+                <input type="text" id="invest_amount" name="invest_amount" value="0"><br>
+            </div>
+            <div class="item">
+                <label for="dollar_price">قیمت دلار به تومان</label>
+                <input type="text" id="dollar_price" name="dollar_price" value="60000"><br>
+            </div>
+        </form>
+        <div class="plan">
+
+            <div class="item">
+                <p>مبلغ سرمایه گذاری به تومان</p>
+                <p id="invest_amount_toman">100000</p>
+            </div>
+            <div class="item">
+                <p>مبلغ سرمایه گذاری به دلار</p>
+                <p id="invest_amount_dollar">50</p>
+            </div>
+
+            <div class="item">
+                <p>سود ماهانه (تومان)</p>
+                <p id="interest_month_toman">100000</p>
+            </div>
+            <div class="item">
+                <p>سود ماهانه (دلار)</p>
+                <p id="interest_month_dollar">100000</p>
+            </div>
+            <div class="item">
+                <p>سود روزانه (تومان)</p>
+                <p id="interest_day_toman">100000</p>
+            </div>
+            <div class="item">
+                <p>سود روزانه (دلار)</p>
+                <p id="interest_day_dollar">100000</p>
+            </div>
+
+        </div>
 
     </section>
     <footer>
         <p>در صورت نیاز به مشاوره با حسام اکرمی تماس بگیرید</p>
-        <p></p>
+        <p>0917-391-8727</p>
     </footer>
+    <script src="calculator.js" type="module"></script>
 </body>
 
 </html>
