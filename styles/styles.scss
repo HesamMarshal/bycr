@@ -190,6 +190,9 @@ footer{
     display: flex;
 
 }
+.blue {
+    color: var(--color-secondary)
+}
 .filter-blue {
     filter: invert(30%) sepia(76%) saturate(1322%) hue-rotate(185deg) brightness(89%) contrast(88%);
 }
