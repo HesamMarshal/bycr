@@ -166,9 +166,17 @@ a{
 #calculator{
     display: flex;
     flex-direction: column;
+    
+    form{
+        margin-top: 1rem;
+        padding: .75rem;
+        border: 1px solid var(--color-secondary);
+        border-radius: 15px;
+    }
     .item{
         display: flex;
         justify-content: space-between;
+        
     }
 
     .plan{
