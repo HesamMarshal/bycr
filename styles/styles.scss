@@ -162,6 +162,30 @@ a{
         }
     }
 }
+
+#calculator{
+    display: flex;
+    flex-direction: column;
+    .item{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .plan{
+        margin-top: 1rem;
+        padding: .75rem;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid var(--color-secondary);
+        border-radius: 15px;
+
+        .item{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
 footer{
     display: flex;
 
@@ -169,3 +193,4 @@ footer{
 .filter-blue {
     filter: invert(30%) sepia(76%) saturate(1322%) hue-rotate(185deg) brightness(89%) contrast(88%);
 }
+
